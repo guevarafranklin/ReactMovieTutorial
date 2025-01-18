@@ -6,3 +6,98 @@
     display: flex;
     flex-direction: column;
   }
+
+  .main-content h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-content h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-content h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-content p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-content a {
+    color: #0077cc;
+  }
+
+  .main-content a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .main-content ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-content .button {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  .main-content .button:hover {
+    background-color: #005fa3;
+  }
+
+  .main-content .button:disabled {
+    background-color: #d3d3d3;
+    color: #a1a1a1;
+    cursor: not-allowed;
+  }
+
+  .main-content .button:disabled:hover {
+    background-color: #d3d3d3;
+  }
+
+  .main-content .field {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content .field label {
+    margin-bottom: 0.25rem;
+  }
+
+  .main-content .field input {
+    padding: 0.5rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 0.25rem;
+  }
+
+  .main-content .field input:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+
+  .main-content .field .error {
+    color: #ff0033;
+    font-size: 0.875rem;
+  }
+
+  .main-content .field .error::before {
+    content: '⚠ ';
+  }
+
+  .main-content
